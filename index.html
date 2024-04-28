@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+
+    <title>Basketball Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="teamContainer">
+        <h1 class="title">HOME</h1>
+        <div class="resultBord" id="resultHomeBord">
+          <p id="resultHome" class="styleResultBord">0</p>
+        </div>
+        <div class="buttons">
+          <p class="styleBtn" onclick="addOneHomeFun()">+1</p>
+          <p class="styleBtn" onclick="addTwoHomeFun()">+2</p>
+          <p class="styleBtn" onclick="addThreeHomeFun()">+3</p>
+        </div>
+      </div>
+      <div class="teamContainer">
+        <h1 class="title">GUEST</h1>
+        <div class="resultBord">
+          <p id="resultGuest" class="styleResultBord">0</p>
+        </div>
+        <div class="buttons">
+          <p class="styleBtn" onclick="addOneGuestFun()">+1</p>
+          <p class="styleBtn" onclick="addTwoGuestFun()">+2</p>
+          <p class="styleBtn" onclick="addThreeGuestFun()">+3</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
